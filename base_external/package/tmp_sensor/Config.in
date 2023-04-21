@@ -1,0 +1,4 @@
+config BR2_PACKAGE_TMP_SENSOR
+	bool "tmp_sensor"
+	help
+	  Includes the files required to get data from  TMP102-I2C based sensor
