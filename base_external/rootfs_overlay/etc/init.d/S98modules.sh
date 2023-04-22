@@ -10,6 +10,11 @@ i2cdetect -y 1
 echo "i2c modules loaded succesfully"
 cd usr/bin
 ./tmp_sensor -E &
+
+cd etc/tmpdir
+rm -rf tempdata.txt
+touch tempdata.txt
+chmod 766 tempdata.txt
 echo "temperature sensor module started"
 ;;
 stop)

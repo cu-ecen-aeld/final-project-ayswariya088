@@ -5,7 +5,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-TMP_SENSOR_VERSION = 'c025db3cdb2de5470babdc4b96a0eeeca6fa07ea'
+TMP_SENSOR_VERSION = '6f65c90731239ff7158e0d0d60e71fd11c43213a'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
