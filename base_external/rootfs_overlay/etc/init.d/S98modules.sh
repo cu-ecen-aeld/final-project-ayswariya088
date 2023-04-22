@@ -6,6 +6,11 @@ start)
 echo "Starting initialization for I2C module"
 modprobe i2c-dev
 modprobe i2c-bcm2835
+i2cdetect -y 1
+echo "i2c modules loaded succesfully"
+cd usr/bin
+./tmp_sensor -E &
+echo "temperature sensor module started"
 ;;
 stop)
 echo "Removing I2C modules"
