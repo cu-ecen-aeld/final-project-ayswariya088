@@ -1,0 +1,29 @@
+#!/bin/sh
+#
+# Start the network....
+#
+#referred  from https://github.com/cu-ecen-aeld/buildroot-assignments-base/pull/14/commits/110402f9f3b0b5af76fc5f7b0f9771ed228afb10
+# Debian ifupdown needs the /run/network lock directory
+mkdir -p /run/network
+
+case "$1" in
+  start)
+	printf "Starting network: "
+	/sbin/ifup -a
+	[ $? = 0 ] && echo "OK" || echo "FAIL"
+	;;
+  stop)
+	printf "Stopping network: "
+	/sbin/ifdown -a
+	[ $? = 0 ] && echo "OK" || echo "FAIL"
+	;;
+  restart|reload)
+	"$0" stop
+	"$0" start
+	;;
+  *)
+	echo "Usage: $0 {start|stop|restart}"
+	exit 1
+esac
+
+exit $?
