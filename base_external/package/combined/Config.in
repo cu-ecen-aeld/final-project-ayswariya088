@@ -1,0 +1,4 @@
+config BR2_PACKAGE_COMBINED
+        bool "combined"
+        help
+          Includes the files required to get data from  TMP102-I2C based sensor and controlling GPIO LED based on the data

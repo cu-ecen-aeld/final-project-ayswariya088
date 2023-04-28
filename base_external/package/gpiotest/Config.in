@@ -1,0 +1,4 @@
+config BR2_PACKAGE_GPIOTEST
+	bool "gpiotest"
+	help
+	  Includes the gpiotest script to test the gpio functionality

@@ -1,2 +1,4 @@
 source "$BR2_EXTERNAL_assignment_base_PATH/package/aesd-assignments/Config.in"
 source "$BR2_EXTERNAL_assignment_base_PATH/package/tmp_sensor/Config.in"
+source "$BR2_EXTERNAL_assignment_base_PATH/package/gpiotest/Config.in"
+source "$BR2_EXTERNAL_assignment_base_PATH/package/combined/Config.in"
