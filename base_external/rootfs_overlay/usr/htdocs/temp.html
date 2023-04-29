@@ -17,9 +17,14 @@
                 <section class="jumbotron text-center">
                     <div class="container">
                         <h1 class="jumbotron-heading">Data:</h1>
-                        <p class="lead text-muted">Temperature in Deg C</p>
-                        </p>
-                    </div>
+                                <?php
+                                $file_location="/etc/tmpdir/tempdata.txt";
+                                $open_file=fopen($file_location,"r");
+                                $file_contents=fread($open_file,500);
+                                fclose($file_location);
+                                echo($file_contents);
+                                ?>
+                   </div>
                 </section>
             </div>
            </div>
