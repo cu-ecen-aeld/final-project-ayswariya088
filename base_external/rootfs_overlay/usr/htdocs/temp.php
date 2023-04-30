@@ -20,7 +20,7 @@
                                 <?php
                                 $file_location="/etc/tmpdir/tempdata.txt";
                                 $open_file=fopen($file_location,"r");
-                                $file_contents=fread($open_file,500);
+                                $file_contents=fread($open_file,filesize($file_location));
                                 fclose($file_location);
                                 echo nl2br($file_contents);
                                 ?>
