@@ -5,7 +5,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-COMBINED_VERSION = '3272343320575f9af43e709330559e0b85703d01'
+COMBINED_VERSION = 'bc57a8efb6f1a96a878ff7f9162ab553ce5dcf29'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:

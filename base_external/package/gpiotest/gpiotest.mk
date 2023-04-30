@@ -5,7 +5,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference the application code repo
-GPIOTEST_VERSION = 'a3e7650c710c3e8d4eaecd47ebbd28d336286f12'
+GPIOTEST_VERSION = 'bc57a8efb6f1a96a878ff7f9162ab553ce5dcf29'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:

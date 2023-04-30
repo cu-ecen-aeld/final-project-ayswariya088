@@ -22,7 +22,7 @@
                                 $open_file=fopen($file_location,"r");
                                 $file_contents=fread($open_file,500);
                                 fclose($file_location);
-                                echo($file_contents);
+                                echo nl2br($file_contents);
                                 ?>
                    </div>
                 </section>
