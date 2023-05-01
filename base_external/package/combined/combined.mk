@@ -4,7 +4,7 @@
 # AND LED 
 ##############################################################
 
-#TODO: Fill up the contents below in order to reference your assignment 3 git contents
+#TODO: Fill up the contents below in order to reference your final project  assignment  git contents
 COMBINED_VERSION = 'ebb66dd92489293e9d147f7cb2055d93094387f9'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.

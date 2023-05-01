@@ -4,7 +4,7 @@
 #
 ##############################################################
 
-#TODO: Fill up the contents below in order to reference your assignment 3 git contents
+#TODO: Fill up the contents below in order to reference your final project assignment  git contents
 TMP_SENSOR_VERSION = 'ebb66dd92489293e9d147f7cb2055d93094387f9'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
@@ -18,7 +18,7 @@ define TMP_SENSOR_BUILD_CMDS
 
 endef
 
-# TODO add your writer, finder and finder-test utilities/scripts to the installation steps below
+# TODO add your temp sensor  utilities/scripts to the installation steps below
 define TMP_SENSOR_INSTALL_TARGET_CMDS
 		
 	$(INSTALL) -m 0755 $(@D)/tmp_sensor/tmp_sensor $(TARGET_DIR)/usr/bin
